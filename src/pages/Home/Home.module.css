@@ -1,0 +1,45 @@
+.container {
+    padding: 20px;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 110px;
+}
+
+.viral {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.viral:hover {
+    background-color: #808183;
+}
+
+.selectFilters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.galleryContainer {
+    margin: 0 auto;
+    columns: 4;
+    column-gap: 10px;
+    align-content: center;
+    padding: 0 100px;
+}
+
+.paginationWrapper {
+    margin: 40px 100px;
+}

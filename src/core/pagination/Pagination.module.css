@@ -1,0 +1,39 @@
+.container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.page {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.currentPage {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: white;
+    color: #2e3035;
+    cursor: pointer;
+}
+
+.page:hover {
+    background-color: #474a51;
+    cursor: pointer;
+}

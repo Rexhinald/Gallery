@@ -1,0 +1,50 @@
+.container {
+    width: 280px;
+    background-color: #474a51;
+    margin-bottom: 20px;
+    break-inside: avoid;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.container:hover {
+    background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 25%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 25%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 25%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#000000", GradientType=1);
+}
+
+.thumbnail {
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info {
+    padding: 10px;
+}
+
+.info:hover {
+    padding: 10px;
+}
+
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.votes {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.scoresText {
+    margin: 0 5px;
+}
