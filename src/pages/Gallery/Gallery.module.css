@@ -1,0 +1,64 @@
+.container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.stream {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.votes {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.scoresText {
+    margin: 0 5px;
+}
+
+.thumbnail {
+    width: 100%;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+.notFound {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.notFoundText {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.backButton {
+    padding: 20px 30px;
+    border-radius: 50px;
+}
+
+.backButton:hover {
+    font-weight: bold;
+    background-color: #474a51;
+    cursor: pointer;
+}

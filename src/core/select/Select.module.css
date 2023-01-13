@@ -1,0 +1,40 @@
+.wrapper {
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.title {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.title:hover {
+    border-bottom: #808183 1px solid;
+    margin-bottom: -1px;
+}
+
+.option {
+    padding: 5px 15px;
+}
+
+.selectedOption {
+    padding: 5px 15px;
+    font-weight: bolder;
+}
+
+.option:hover, .selectedOption:hover {
+    background-color: #808183;
+}
+
+.dropdown {
+    overflow-y: auto;
+    padding: 10px 0;
+    max-width: 150px;
+    position: absolute;
+    background-color: #53565d;
+    max-height: 300px;
+    margin-top: 10px;
+    z-index: 200;
+}
